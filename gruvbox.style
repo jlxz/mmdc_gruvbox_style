@@ -1,0 +1,153 @@
+/* 
+gruvbox style for MultiMarkdown Composer by jlxz
+version: 1.2
+date: 21/10/2014
+author: jlxz
+
+original gruvbox theme for vim by Pavel Pertsev
+https://github.com/morhetz/gruvbox
+
+css code for preview designed using code from Elefant style for MultiMarkdown Composer by Wolfgang Reszel
+https://github.com/Tekl/mmd-elefant
+
+Designed based on the gruvbox palette
+
+gruvbox			OSX HEX
+dark0			#1e1e1e
+dark0_hard		#161819
+dark0_soft		#262423
+dark1			#2e2a29
+dark2			#3f3935
+dark3			#534a42
+dark4			#685c51
+medium			#7f7061
+light0			#fbf1c7
+light0_hard		#f9f5d7
+light0_soft		#f2e5bc
+light1			#e6d4a3
+light2			#cbb890
+light3 			#af9f81
+light4			#978771
+bright_red		#f73028
+bright_green	#aab01e
+bright_yellow	#f7b125
+bright_blue		#719586
+bright_purple	#c77089
+bright_aqua		#7db669
+bright_orange	#fb6a16
+
+*/
+{
+autoZoomHorizontalPadding = 50; 
+horizontalPadding = 10;         
+
+foregroundColor = e6d4a3;	
+backgroundColor = 262423;	
+caretColor = e6d4a3;        
+selectionColor = 534a42;    
+
+focusMode = 0;                  
+typewriterMode = 0;             
+
+monoFontSize = 14;              
+monoFontName = "Courier New";
+
+css = "body {background:#262423;color:#e6d4a3;font-family: Menlo; font-size:13px; line-height:150%; text-align: left; padding: 0 20px} h1,h2,h3,h4,h5,h6 {color:#aab01e} h1,h2,h3,h4,h5,h6,ul ul {margin-bottom: 0.4em;} p {margin-top: 0.2em} a {color:#719586} table { border: solid #7f7061; border-width: 2px 0px; empty-cells: hide; border-spacing: 0px; padding: 2px; margin: 20px auto;}table caption { margin: 5px; text-align: center; caption-side: bottom;}thead th { border: solid #7f7061; border-width: 0 0 2px 0; padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td { border: solid #7f7061; border-width: 1px 0 0 0;}tbody > tr:first-child > th { border: solid #7f7061; border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td { border: solid #7f7061; border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th { border: solid #7f7061; border-width: 1px 0 0 0;} del {background:#f73028;} ins {background:#aab01e} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;}";
+
+default = {
+	bold = 0;
+	italic = 0;
+};
+metadata = {                    
+    foregroundColor = f7b125;
+    kerning = 0.2;
+};
+bold = {
+	bold = 0;
+	foregroundColor = c77089;		
+	markupForegroundColor = 7f7061;	
+};
+italic = {
+	italic = 1;
+	foregroundColor = 7db669;		
+	markupForegroundColor = 7f7061;	
+};
+boldAndItalic = {
+	bold = 1;
+	italic = 1;
+	foregroundColor = c77089;		
+	markupForegroundColor = 7f7061;	
+};
+heading = {
+	fontSize = 14;
+	foregroundColor = aab01e;
+	backgroundColor = 3f3935;	
+	markupForegroundColor = fb6a16; 	
+	bold = 0;
+	italic = 1;
+};
+codeSpan = {
+	foregroundColor = f7b125;		
+	markupForegroundColor = 7f7061;	
+	mono = 1;
+};
+codeBlock = {
+	foregroundColor = f7b125;		
+	backgroundColor = 534a42;		
+	mono = 1;
+};
+link = {
+	foregroundColor = 7db669;		
+	markupForegroundColor = 7f7061;
+	italic = 1;	
+};
+math = {
+	foregroundColor = 719586;		
+	markupForegroundColor = 7f7061;	
+	italic = 1;
+};
+list = {
+	markupForegroundColor = 719586;	
+};
+blockquote = {
+	markupForegroundColor = cbb890;
+	foregroundColor = af9f81;
+};
+URL = {
+	foregroundColor = 719586;
+	underline = 1;
+};
+comment = {
+	markupForegroundColor = 978771;
+	foregroundColor = 978771;
+};
+table = {
+	markupForegroundColor = 7f7061;
+};
+criticAddition = {
+	foregroundColor = aab01e;
+	markupForegroundColor = aab01e;
+};
+criticDeletion = {
+	foregroundColor = f73028;
+	markupForegroundColor = f73028;
+};
+criticSubstitution = {
+	foregroundColor = fb6a16;
+	markupForegroundColor = fb6a16;
+};
+criticHighlight = {
+	foregroundColor = f7b125;
+	markupForegroundColor = f7b125;
+};
+criticComment = {
+	foregroundColor = 719586;
+	markupForegroundColor = 719586;
+};
+superscript = {
+	superscript = 1;
+};
+subscript = {
+	superscript = -1;
+};
+}
