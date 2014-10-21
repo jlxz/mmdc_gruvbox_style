@@ -6,14 +6,14 @@ stylesheet for Multimarkdown Composer based on gruvbox theme by Pavel Pertsev
 
 The following settings are **not** overridden by this theme. 
 
-![settings not overridden](./settings.png)
+![settings not overridden](settings.png)
 
 -----------------------------------
 
 Using settings shown in the above picture.
 
-![basic multimarkdown](./basic.png)
+![basic multimarkdown](basic.png)
 
-![lists](./lists.png)
+![lists](lists.png)
 
-![tables, maths and critic markup](./table_math_critic.png)
+![tables, maths and critic markup](table_math_critic.png)
