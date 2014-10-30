@@ -114,7 +114,7 @@ blockquote = {
 	foregroundColor = af9f81;
 };
 URL = {
-	foregroundColor = 719586;
+	foregroundColor = cbb890;
 	underline = 1;
 };
 comment = {
